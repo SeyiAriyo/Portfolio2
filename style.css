@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poiret+One&display=swap');
+
+/*general form*/
+body {
+	background-image: url(images/body.jpg);
+    margin: 0;
+}
+
+header{
+    height: 140px;
+	background-color: #000000;
+	background-image:url(images/dark.png);
+}
+
+footer{
+	height: 170px;
+	background-color: #000000;
+	background-image:url(images/dark.png);
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 50px 0;
+}
+
+#contact .group{
+    margin-top: 0;
+}
+
+#contact .group .item-bottom{
+    margin-top: 60px;
+}
+
+.item {
+    width: 100%;
+    flex: 1;
+}
+
+#contact ul li {
+  list-style-type: none;
+}
+
+#contact ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+#contact a:link { color: #38786a; }
+#contact a:visited { color: #38786a; }
+#contact a:active { color: #403933; }
+#contact ul li a:hover { color: #403933;}
+
+img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+
+/*top bar*/
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #f3eded;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #f3eded;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 22px;
+	text-align:center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+/*types*/
+h1, h2, h3 {
+	color: #000000;
+	font-family: 'Raleway', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+footer nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+footer h2 {
+	color: #fff;	
+	text-align: center;
+}
+
+footer p {
+	color: #fff;	
+	text-align: center;
+}
+
+
+
+footer a:link { color: #698378; }
+footer a:visited { color: #698378; }
+footer a:hover { color: #a4cdbc; }
+footer a:active { color: #a4cdbc; }
+
+
+/*spacing*/
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
+
+/*element style*/
+
+img, iframe { border-radius: 8px;} 
+
+iframe { border: 1px solid #403933;}
+
+hr { border: .5px solid #403933;}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.profile {
+    border-radius: 50%;
+}
+.item-triple {
+    flex: 3;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-submit-button {
+  background: #fff;
+  color: #111111;
+  border-style: outset;
+  border-color: #111111;
+  height: 50px;
+  width: 100px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow:none;
+}
+
+@media all and (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width:500px;
+
+}
+#contact .group .item-bottom{
+        margin-top: 0px;
+    }
+/* Contact Form Design */
+
+form {
+  padding-right: 6px;
+  /* Fixed small sizing issue on the right */
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
