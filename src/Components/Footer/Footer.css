@@ -1,3 +1,12 @@
+footer a, footer a:visited { color: #FFF; }
+footer a:hover, footer a:focus { color: #676b6d; }
+
+
+footer .social-links {
+  margin: 2.5rem;
+  font-size: 30px;
+}
+
 footer {
   height: 8rem;
   background-color: transparent;
@@ -6,14 +15,10 @@ footer {
   z-index: 5 !important;
 }
 
-footer a, footer a:visited { color: #FFF; }
-footer a:hover, footer a:focus { color: #56d4fd; }
 
-/* social links */
-footer .social-links {
-  margin: 2.5rem;
-  font-size: 30px;
-}
+
+
+
 
 footer .social-links li{
   margin: 0 2rem;

@@ -1,5 +1,5 @@
 #portfolio {
-  background: #2B2B2B;
+  background: #000000;
   overflow: hidden;
   height: calc(100vh - 16rem);
   display: flex;
@@ -28,7 +28,7 @@
   overflow-x: auto;
   overflow-y: auto;
   text-align: center;
-  background-color:#222222;
+  background-color:#000000;
 }
 
 #portfolio .project-list{
@@ -38,24 +38,7 @@
   justify-content: start;
 }
 
-#portfolio .project-list li button{
-  height: 100px;
-  width: 100px;
-}
 
-#portfolio .project-list li{
-  margin: 1.2rem 2rem 0 2rem;
-  text-align: center;
-}
-
-#portfolio .mini-title{
-  color: #FFF;
-  font-size: 1.3rem;
-}
-
-#portfolio .mini-sub{
-  font-size: 1.3rem;
-}
 
 #portfolio .screenshot-button{
   background-color: rgba(130, 130, 130, 0.057);
@@ -98,28 +81,6 @@
   margin: 0 auto;
 }
 
-#portfolio .project-full .column h2{
-  text-align: center;
-}
-
-#portfolio .project-img{
-  margin: 0 auto;
-  width: 80%;
-  min-width: 10rem;
-  max-width: 42rem;
-}
-
-#portfolio button{
-  padding: 0;
-  background-color: transparent;
-  margin-bottom: 0;
-}
-
-#portfolio button:hover{
-  background-color: #f4d143c9;
-  border-radius: 0;
-}
-
 #portfolio .thumbnail{
   width: 90%;
   margin: 5px auto;
@@ -139,8 +100,50 @@
   justify-content: center;
 }
 
+#portfolio .project-full .column h2{
+  text-align: center;
+}
+
+#portfolio .project-img{
+  margin: 0 auto;
+  width: 80%;
+  min-width: 10rem;
+  max-width: 42rem;
+}
+#portfolio .project-list li button{
+  height: 100px;
+  width: 100px;
+}
+
+#portfolio .project-list li{
+  margin: 1.2rem 2rem 0 2rem;
+  text-align: center;
+}
+
+#portfolio .mini-title{
+  color: #FFF;
+  font-size: 1.3rem;
+}
+
+#portfolio .mini-sub{
+  font-size: 1.3rem;
+}
+
+#portfolio button{
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+#portfolio button:hover{
+  background-color: #3a3a3ac9;
+  border-radius: 0;
+}
+
+
+
 #portfolio a, #portfolio a:visited { color: #FFF; }
-#portfolio a:hover, #portfolio a:focus { color: #56d4fd; }
+#portfolio a:hover, #portfolio a:focus { color: #444442; }
 
 #portfolio a{
   padding: 1rem;
@@ -180,7 +183,7 @@
     overflow-x: auto;
     overflow-y: auto;
     text-align: center;
-    background-color:#222222;
+    background-color:#000000;
   }
 
   #portfolio .project-list{
@@ -272,7 +275,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     text-align: center;
-    background-color:#222222;
+    background-color:#000000;
     max-height: 50px;
     min-height: 160px;
   }

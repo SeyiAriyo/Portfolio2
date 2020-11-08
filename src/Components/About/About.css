@@ -1,5 +1,5 @@
 #about {
-  background: #2B2B2B;
+  background: #000000;
   padding-top: 1rem;
   overflow: auto;
   height: calc(100vh - 16rem);
@@ -45,10 +45,7 @@
   width: 90%;
   margin: 0 auto;
 }
-#about .download .button {
-  margin-top: 6px;
-  background: #444;
-}
+
 #about .download .button:hover {
   background: #fff;
   color: #2B2B2B;

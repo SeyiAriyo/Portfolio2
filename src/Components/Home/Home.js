@@ -7,9 +7,11 @@ export default function Header() {
       background: "url('images/body.jpg')"
     }}>
       <div className="row banner">
+        
         <div className="banner-text">
-          <h1>I'm Seyi,</h1>
-          <h3>My specialties include software engineering and fullstack web development. </h3>
+          
+          <h1>Seyi Ariyo</h1>
+          <h2>Software Engineer</h2>
         </div>
       </div>
     </section >

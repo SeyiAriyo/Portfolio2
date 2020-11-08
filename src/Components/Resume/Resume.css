@@ -1,12 +1,10 @@
 #resume {
   background: #fff;
   padding-top: 90px;
-  padding-bottom: 72px;
+  padding-bottom: 20px;
   overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
@@ -14,11 +12,25 @@
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11ABB0;
+  border-bottom: 3px solid #000000;
   padding-bottom: 6px;
 }
 #resume h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#resume .info {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#resume .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
 }
 
 #resume .header-col { 
@@ -38,20 +50,7 @@
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6E7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
-}
-#resume .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-#resume .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
-}
+
 
 @media only screen and (min-width: 500px) {
   .work, .education, .skill{

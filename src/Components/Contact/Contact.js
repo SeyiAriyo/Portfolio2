@@ -52,7 +52,6 @@ export default function Contact(props) {
     <section id="contact">
       <div className="row section-head">
         <div className="column">
-          <h1><span>Get In Touch.</span></h1>
         </div>
         <div className="column">
           <p className="lead">If you are interested in connecting to discuss / work on innovative ventures feel free to contact me directly or by using the form below.
@@ -61,7 +60,7 @@ export default function Contact(props) {
       </div>
       <div className="row section-body">
         <div className="column">
-          {/* form start */}
+         
           <form id="contactForm" name="contactForm" onSubmit={handleSubmit}>
             <fieldset>
               <div>
@@ -96,14 +95,14 @@ export default function Contact(props) {
               </div>
             </fieldset>
           </form>
-          {/* form end */}
+        
           <div id="message-warning"> Error boy</div>
           <div id="message-success">
-            <i className="fa fa-check" />Your message was sent, thank you!<br />
+            <i className="fa fa-check" />Your message was sent!<br />
           </div>
         </div>
         <div className="column">
-          <h4>Address and Phone</h4>
+          <h4>Address and Phone Number</h4>
           <ul className="address">
             <li>Oluwaseyi Ariyo</li>
             <li>College Park, MD</li>
